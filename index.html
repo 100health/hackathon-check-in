@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="data:image/x-icon;base64,AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAKBEAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANLS0ijIyMqPvLy91MO1vfTNtMH3zra94M++vqXS0tJEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////AtPV1YTU1dX6v7+//qyrq/+5pK//zaO3/82hqf/NoZz/w7aj/sHQv7LV1dUSAAAAAAAAAAA">
-  <title>Redox Check-In Demo</title>
+  <title>Redox Check-In Application</title>
   <meta name="author" content="name">
   <meta name="description" content="description here">
   <meta name="keywords" content="keywords,here">
@@ -110,7 +110,7 @@ function animateDivInn(){
   </head>
   <body>
     <div ng-app="myApp" ng-controller="myCtrl" class="container">
-      <h1>Czech Inn Fun!</h1>
+      <h1>Redox Check-In Application</h1>
 
       <!-- Success Messages (if any) -->
       <div class="alert alert-success" role="alert" ng-if="success != ''">{{ success }}</div>
@@ -125,17 +125,17 @@ function animateDivInn(){
         <form ng-submit="sendUpdate(reason, instructions)">
           <div class="form-group">
             <label for="visitreason">Visit Reason</label>
-            <input ng-model="reason" type="test" class="form-control" id="visitreason" placeholder="Tell me where it hurts???">
+            <input ng-model="reason" type="test" class="form-control" id="visitreason" placeholder="What's the reason for your visit today?">
           </div>
           <div class="form-group">
             <label for="visitinstructions">Special Instructions</label>
-            <input ng-model="instructions" type="test" class="form-control" id="visitinstructions" placeholder="Please warm the towel.">
+            <input ng-model="instructions" type="test" class="form-control" id="visitinstructions" placeholder="ex. I have trouble walking and may need assistance getting to my exam room">
           </div>
           <button type="submit" class="btn btn-default">Czech-Inn</button>
         </form>
       </div>
     </div>
-        <img src="https://i.pinimg.com/474x/65/05/7b/65057bce94c9ef7761abab9d92e7fb49--building-design-d-art.jpg" id="inn" class="fix"/>
-   <img src="https://www.worldatlas.com/r/w300-h175-c300x175/upload/60/d5/9b/untitled-design-159.jpg" id="flag" class="fix"/>
+   <!--<img src="https://i.pinimg.com/474x/65/05/7b/65057bce94c9ef7761abab9d92e7fb49--building-design-d-art.jpg" id="inn" class="fix"/>
+   <img src="https://www.worldatlas.com/r/w300-h175-c300x175/upload/60/d5/9b/untitled-design-159.jpg" id="flag" class="fix"/>-->
    </body>
 </html>
