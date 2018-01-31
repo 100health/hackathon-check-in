@@ -250,7 +250,7 @@ app.post('/api/visitupdate', (req, res) => {
 
 	getAuthToken(toke => {
 		var options = {
-			url: 'https://api.redoxengine.com/query',
+			url: 'https://api.redoxengine.com/endpoint',
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
